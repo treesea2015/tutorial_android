@@ -1,0 +1,67 @@
+[2015-03-25 11:02:09] [WARN ] [main] [org.databene.platform.array.Array2EntityConverter:68] -- Array2EntityConverter[QQ鍙?瀵嗙爜]: Row has more columns than specified in the file header: 724109409, nimabi_%331415
+[2015-03-25 11:08:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 11:08:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 11:09:12] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 11:09:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 11:10:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 11:10:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 11:11:39] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 11:11:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 12:13:33] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 12:13:33] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 12:14:34] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 12:14:34] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 12:14:38] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：简体中文
+[2015-03-25 12:14:42] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Save
+[2015-03-25 12:15:43] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 12:15:43] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 12:18:50] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 12:18:50] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 12:19:51] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 12:19:51] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 12:20:52] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 12:20:52] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 12:29:30] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 12:29:30] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 12:30:31] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 12:30:31] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 12:31:32] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 12:31:32] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 12:36:10] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 12:36:10] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 12:37:11] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 12:37:11] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 12:38:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 12:38:12] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 14:07:46] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 14:07:46] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 14:08:46] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 14:08:46] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 14:09:47] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 14:09:47] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 14:10:17] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-25 14:10:17] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-25 14:11:17] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 14:11:17] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 14:12:18] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:283] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 14:12:18] [INFO ] [main] [appium.tutorial.android.act.WechatAct:35] -- 出错了 
+[2015-03-25 15:10:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:145] -- 设置超时时间：60
+[2015-03-25 15:10:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:205] -- 定位元素：Cancel
+[2015-03-25 15:11:12] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:311] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 15:11:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:205] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 15:12:14] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:288] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 15:12:14] [INFO ] [main] [appium.tutorial.android.act.WechatAct:41] -- 出错了 
+[2015-03-25 15:12:42] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:145] -- 设置超时时间：60
+[2015-03-25 15:12:42] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:205] -- 定位元素：Cancel
+[2015-03-25 15:13:42] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:311] -- not found element by xpath:Cancel  in 60 s
+[2015-03-25 15:13:42] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:205] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-25 15:14:44] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:288] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-25 15:14:44] [INFO ] [main] [appium.tutorial.android.act.WechatAct:41] -- 出错了 
+[2015-03-25 17:18:38] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:83] -- 测试报告上传服务器完成
+[2015-03-25 17:35:28] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:83] -- 测试报告上传服务器完成
+[2015-03-25 17:39:40] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:83] -- 测试报告上传服务器完成
+[2015-03-25 17:52:22] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:83] -- 测试报告上传服务器完成
+[2015-03-25 18:29:15] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:120] -- 邮件发送完成
+[2015-03-25 18:29:15] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:92] -- 测试报告上传服务器完成
+[2015-03-25 18:36:43] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:120] -- 邮件发送完成
+[2015-03-25 18:36:43] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:92] -- 测试报告上传服务器完成

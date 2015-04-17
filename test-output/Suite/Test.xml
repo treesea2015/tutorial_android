@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="dell-PC" name="appium.tutorial.android.step.WechatTest" tests="2" failures="1" timestamp="27 Mar 2015 07:15:29 GMT" time="251.995" errors="0">
+  <testcase name="testLogin" time="67.738" classname="appium.tutorial.android.step.WechatTest">
+    <failure type="appium.tutorial.android.util.TestException" message="
+测试登录失败！">
+      <![CDATA[appium.tutorial.android.util.TestException: 
+测试登录失败！
+	at appium.tutorial.android.step.WechatTest.testLogin(WechatTest.java:46)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:338)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:997)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testLogin" time="109.552" classname="appium.tutorial.android.step.WechatTest"/>
+</testsuite>

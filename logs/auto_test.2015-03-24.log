@@ -1,0 +1,6 @@
+[2015-03-24 18:49:51] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:140] -- 设置超时时间：60
+[2015-03-24 18:49:51] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Cancel
+[2015-03-24 18:50:51] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:306] -- not found element by xpath:Cancel  in 60 s
+[2015-03-24 18:50:51] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-24 18:50:55] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：简体中文
+[2015-03-24 18:51:00] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:200] -- 定位元素：Save

@@ -1,0 +1,4 @@
+[2015-03-04 17:42:01] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: testDriverEntity
+[2015-03-04 17:42:02] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null
+[2015-03-04 17:43:35] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: testDriverEntity
+[2015-03-04 17:53:26] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null

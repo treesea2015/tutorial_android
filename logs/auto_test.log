@@ -1,0 +1,138 @@
+[2015-03-27 12:28:47] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 12:28:48] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:86] -- 测试报告上传服务器完成
+[2015-03-27 12:32:34] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 12:32:34] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:86] -- 测试报告上传服务器完成
+[2015-03-27 12:35:32] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 12:35:33] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Cancel
+[2015-03-27 12:35:53] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 12:35:53] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 12:35:53] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 12:35:54] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 12:35:58] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-27 12:36:02] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：简体中文
+[2015-03-27 12:36:08] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 12:36:08] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Save
+[2015-03-27 12:36:29] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 12:36:29] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 12:36:29] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 12:36:30] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 12:36:35] [INFO ] [main] [appium.tutorial.android.act.WechatAct:53] -- 选择Login
+[2015-03-27 12:36:40] [INFO ] [main] [appium.tutorial.android.act.WechatAct:61] -- 选择其他方式登陆
+[2015-03-27 12:36:47] [INFO ] [main] [appium.tutorial.android.act.WechatAct:69] -- 输入用户名为：724109409
+[2015-03-27 12:37:00] [INFO ] [main] [appium.tutorial.android.act.WechatAct:77] -- 输入密码名为：nimabi_%331415
+[2015-03-27 12:37:11] [INFO ] [main] [appium.tutorial.android.act.WechatAct:85] -- 点击登录
+[2015-03-27 12:37:43] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 12:37:43] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:86] -- 测试报告上传服务器完成
+[2015-03-27 14:01:04] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:01:04] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Cancel
+[2015-03-27 14:01:25] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:01:25] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:01:25] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 14:01:32] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 14:01:37] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-27 14:01:41] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：简体中文
+[2015-03-27 14:01:50] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:01:50] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Save
+[2015-03-27 14:02:12] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 14:02:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:02:12] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 14:02:14] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 14:02:19] [INFO ] [main] [appium.tutorial.android.act.WechatAct:53] -- 选择Login
+[2015-03-27 14:02:27] [INFO ] [main] [appium.tutorial.android.act.WechatAct:61] -- 选择其他方式登陆
+[2015-03-27 14:02:37] [INFO ] [main] [appium.tutorial.android.act.WechatAct:69] -- 输入用户名为：724109409
+[2015-03-27 14:02:52] [INFO ] [main] [appium.tutorial.android.act.WechatAct:77] -- 输入密码名为：nimabi_%331415
+[2015-03-27 14:03:04] [INFO ] [main] [appium.tutorial.android.act.WechatAct:85] -- 点击登录
+[2015-03-27 14:03:47] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:03:47] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Cancel
+[2015-03-27 14:04:07] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:04:07] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:04:07] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 14:04:14] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：取消
+[2015-03-27 14:04:18] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-27 14:04:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：简体中文
+[2015-03-27 14:04:32] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:04:32] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：Save
+[2015-03-27 14:04:52] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 14:04:52] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:173] -- 设置超时时间：20
+[2015-03-27 14:04:52] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 14:04:54] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:233] -- 定位元素：保存
+[2015-03-27 14:05:00] [INFO ] [main] [appium.tutorial.android.act.WechatAct:53] -- 选择Login
+[2015-03-27 14:05:07] [INFO ] [main] [appium.tutorial.android.act.WechatAct:61] -- 选择其他方式登陆
+[2015-03-27 14:05:17] [INFO ] [main] [appium.tutorial.android.act.WechatAct:69] -- 输入用户名为：2117999344
+[2015-03-27 14:05:32] [INFO ] [main] [appium.tutorial.android.act.WechatAct:77] -- 输入密码名为：nimabi&331415
+[2015-03-27 14:05:44] [INFO ] [main] [appium.tutorial.android.act.WechatAct:85] -- 点击登录
+[2015-03-27 14:35:24] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:35:24] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：Cancel
+[2015-03-27 14:35:44] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:35:44] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:35:44] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：取消
+[2015-03-27 14:36:04] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:取消  in 20 s
+[2015-03-27 14:36:04] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-27 14:36:31] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:319] -- 开始截图，名称测试登录失败！.jpg
+[2015-03-27 14:37:12] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:37:12] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：Cancel
+[2015-03-27 14:37:32] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:37:32] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:37:32] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：取消
+[2015-03-27 14:37:33] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：取消
+[2015-03-27 14:37:37] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-27 14:37:40] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：简体中文
+[2015-03-27 14:37:45] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:37:45] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：Save
+[2015-03-27 14:38:07] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 14:38:07] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:173] -- 设置超时时间：20
+[2015-03-27 14:38:07] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：保存
+[2015-03-27 14:38:08] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:233] -- 定位元素：保存
+[2015-03-27 14:38:14] [INFO ] [main] [appium.tutorial.android.act.WechatAct:53] -- 选择Login
+[2015-03-27 14:38:19] [INFO ] [main] [appium.tutorial.android.act.WechatAct:61] -- 选择其他方式登陆
+[2015-03-27 14:38:28] [INFO ] [main] [appium.tutorial.android.act.WechatAct:69] -- 输入用户名为：2117999344
+[2015-03-27 14:38:41] [INFO ] [main] [appium.tutorial.android.act.WechatAct:77] -- 输入密码名为：nimabi&331415
+[2015-03-27 14:38:51] [INFO ] [main] [appium.tutorial.android.act.WechatAct:85] -- 点击登录
+[2015-03-27 14:39:07] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 14:39:07] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:87] -- 测试报告上传服务器完成
+[2015-03-27 14:55:46] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:56:34] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 14:56:42] [INFO ] [main] [appium.tutorial.android.act.WechatAct:53] -- 选择Login
+[2015-03-27 14:56:48] [INFO ] [main] [appium.tutorial.android.act.WechatAct:61] -- 选择其他方式登陆
+[2015-03-27 14:56:58] [INFO ] [main] [appium.tutorial.android.act.WechatAct:69] -- 输入用户名为：724109409
+[2015-03-27 14:57:13] [INFO ] [main] [appium.tutorial.android.act.WechatAct:77] -- 输入密码名为：nimabi_%331415
+[2015-03-27 14:57:25] [INFO ] [main] [appium.tutorial.android.act.WechatAct:85] -- 点击登录
+[2015-03-27 14:58:31] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 14:58:52] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:取消  in 20 s
+[2015-03-27 14:59:19] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:319] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-27 14:59:24] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 14:59:24] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:87] -- 测试报告上传服务器完成
+[2015-03-27 15:12:14] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 15:12:34] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:取消  in 20 s
+[2015-03-27 15:12:34] [INFO ] [main] [appium.tutorial.android.act.WechatAct:29] -- 选择语言
+[2015-03-27 15:13:01] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:319] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-27 15:13:58] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 15:13:59] [INFO ] [main] [appium.tutorial.android.act.WechatAct:20] -- 点击弹窗的取消按钮
+[2015-03-27 15:14:04] [INFO ] [main] [appium.tutorial.android.act.WechatAct:29] -- 选择语言
+[2015-03-27 15:14:07] [INFO ] [main] [appium.tutorial.android.act.WechatAct:37] -- 选择简体中文
+[2015-03-27 15:14:37] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 15:14:39] [INFO ] [main] [appium.tutorial.android.act.WechatAct:51] -- 保存
+[2015-03-27 15:14:44] [INFO ] [main] [appium.tutorial.android.act.WechatAct:60] -- 选择Login
+[2015-03-27 15:14:51] [INFO ] [main] [appium.tutorial.android.act.WechatAct:68] -- 选择其他方式登陆
+[2015-03-27 15:15:00] [INFO ] [main] [appium.tutorial.android.act.WechatAct:76] -- 输入用户名为：2117999344
+[2015-03-27 15:15:13] [INFO ] [main] [appium.tutorial.android.act.WechatAct:84] -- 输入密码名为：nimabi&331415
+[2015-03-27 15:15:23] [INFO ] [main] [appium.tutorial.android.act.WechatAct:92] -- 点击登录
+[2015-03-27 15:15:30] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 15:15:30] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:87] -- 测试报告上传服务器完成
+[2015-03-27 15:18:14] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 15:18:17] [INFO ] [main] [appium.tutorial.android.act.WechatAct:20] -- 点击弹窗的取消按钮
+[2015-03-27 15:18:21] [INFO ] [main] [appium.tutorial.android.act.WechatAct:29] -- 选择语言
+[2015-03-27 15:18:25] [INFO ] [main] [appium.tutorial.android.act.WechatAct:37] -- 选择简体中文
+[2015-03-27 15:18:55] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Save  in 20 s
+[2015-03-27 15:18:56] [INFO ] [main] [appium.tutorial.android.act.WechatAct:51] -- 保存
+[2015-03-27 15:19:02] [INFO ] [main] [appium.tutorial.android.act.WechatAct:60] -- 选择Login
+[2015-03-27 15:19:08] [INFO ] [main] [appium.tutorial.android.act.WechatAct:68] -- 选择其他方式登陆
+[2015-03-27 15:19:17] [INFO ] [main] [appium.tutorial.android.act.WechatAct:76] -- 输入用户名为：724109409
+[2015-03-27 15:19:28] [INFO ] [main] [appium.tutorial.android.act.WechatAct:84] -- 输入密码名为：nimabi_%331415
+[2015-03-27 15:19:38] [INFO ] [main] [appium.tutorial.android.act.WechatAct:92] -- 点击登录
+[2015-03-27 15:20:37] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:Cancel  in 20 s
+[2015-03-27 15:20:58] [ERROR] [main] [appium.tutorial.android.util.AppiumHelpers:342] -- not found element by xpath:取消  in 20 s
+[2015-03-27 15:20:58] [INFO ] [main] [appium.tutorial.android.act.WechatAct:29] -- 选择语言
+[2015-03-27 15:21:25] [INFO ] [main] [appium.tutorial.android.util.AppiumHelpers:319] -- 开始截图，名称appium.tutorial.android.step.WechatTest.jpg
+[2015-03-27 15:21:29] [INFO ] [main] [appium.tutorial.android.util.mail.HtmlMail:119] -- 邮件发送完成
+[2015-03-27 15:21:29] [INFO ] [main] [appium.tutorial.android.util.ftp.FtpUtil:87] -- 测试报告上传服务器完成

@@ -1,0 +1,46 @@
+[2015-03-06 12:20:45] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: one
+[2015-03-06 12:21:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:41] -- 设置超时时间：30
+[2015-03-06 12:21:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:144] -- 定位元素：Cancel
+[2015-03-06 12:21:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:49] --  定位元素：By.xpath: //*[@content-desc="Cancel" or @resource-id="Cancel" or @text="Cancel"] | //*[contains(translate(@content-desc,"Cancel","Cancel"), "Cancel") or contains(translate(@text,"Cancel","Cancel"), "Cancel") or @resource-id="Cancel"]
+[2015-03-06 12:21:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:64] -- 找到对应元素
+[2015-03-06 12:21:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:144] -- 定位元素：Cancel
+[2015-03-06 12:21:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:49] --  定位元素：By.xpath: //*[@content-desc="Cancel" or @resource-id="Cancel" or @text="Cancel"] | //*[contains(translate(@content-desc,"Cancel","Cancel"), "Cancel") or contains(translate(@text,"Cancel","Cancel"), "Cancel") or @resource-id="Cancel"]
+[2015-03-06 12:21:43] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:144] -- 定位元素：com.tencent.mm:id/av0
+[2015-03-06 12:22:47] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null
+[2015-03-06 14:29:46] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: one
+[2015-03-06 14:30:10] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:41] -- 设置超时时间：30
+[2015-03-06 14:30:10] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:159] -- 定位元素：Cancel
+[2015-03-06 14:30:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:69] -- 找到对应元素
+[2015-03-06 14:30:39] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:159] -- 定位元素：Cancel
+[2015-03-06 14:30:43] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:159] -- 定位元素：com.tencent.mm:id/av0
+[2015-03-06 14:31:46] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null
+[2015-03-06 14:43:34] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: one
+[2015-03-06 14:47:24] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: one
+[2015-03-06 14:47:52] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:41] -- 设置超时时间：30
+[2015-03-06 14:47:52] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：Cancel
+[2015-03-06 14:48:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:64] -- 未找到对应元素
+[2015-03-06 14:48:22] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：com.tencent.mm:id/av0
+[2015-03-06 14:48:53] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:92] -- 查找元素:com.tencent.mm:id/av0并点击,failed!
+[2015-03-06 14:48:53] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-06 14:49:23] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:92] -- 查找元素:com.tencent.mm:id/bz4并点击,failed!
+[2015-03-06 14:49:26] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null
+[2015-03-06 14:50:09] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:62] --   test: one
+[2015-03-06 14:50:34] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:41] -- 设置超时时间：30
+[2015-03-06 14:50:34] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：Cancel
+[2015-03-06 14:50:56] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:69] -- 找到对应元素
+[2015-03-06 14:50:56] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：Cancel
+[2015-03-06 14:51:00] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:89] -- 查找元素:Cancel并点击,success!
+[2015-03-06 14:51:00] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：com.tencent.mm:id/av0
+[2015-03-06 14:51:30] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:92] -- 查找元素:com.tencent.mm:id/av0并点击,failed!
+[2015-03-06 14:51:30] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- 定位元素：com.tencent.mm:id/bz4
+[2015-03-06 14:51:34] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:89] -- 查找元素:com.tencent.mm:id/bz4并点击,success!
+[2015-03-06 14:51:36] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:71] -- null
+[2015-03-06 16:38:54] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:41] -- ���ó�ʱʱ�䣺50
+[2015-03-06 16:38:54] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- ��λԪ�أ�Cancel
+[2015-03-06 16:39:15] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:69] -- �ҵ���ӦԪ��
+[2015-03-06 16:39:15] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- ��λԪ�أ�Cancel
+[2015-03-06 16:39:19] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:89] -- ����Ԫ��:Cancel�����,success!
+[2015-03-06 16:39:19] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- ��λԪ�أ�com.tencent.mm:id/bz4
+[2015-03-06 16:39:23] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:89] -- ����Ԫ��:com.tencent.mm:id/bz4�����,success!
+[2015-03-06 16:39:23] [INFO ] [main] [appium.tutorial.android.util.AppiumTest:163] -- ��λԪ�أ�com.tencent.mm:id/av0
+[2015-03-06 16:40:13] [ERROR] [main] [appium.tutorial.android.util.AppiumTest:92] -- ����Ԫ��:com.tencent.mm:id/av0�����,failed!
