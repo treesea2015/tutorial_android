@@ -43,7 +43,8 @@ import org.testng.xml.XmlSuite;
 		/* 30: */}
 
 	/* 31: */
-	/* 32: */public void generateReport(List<XmlSuite> xmlSuites,
+	/* 32: */@Override
+	public void generateReport(List<XmlSuite> xmlSuites,
 			List<ISuite> suites, String outputDirectoryName)
 	/* 33: */{
 		/* 34: 63 */removeEmptyDirectories(new File(outputDirectoryName));

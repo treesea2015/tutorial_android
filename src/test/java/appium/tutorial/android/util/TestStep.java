@@ -57,8 +57,9 @@ public class TestStep extends AppiumFactory {
 	 * @param sys
 	 * @throws Exception
 	 */
-	@BeforeClass
+	@BeforeClass()
 	public void beforeClass() throws Exception {
+		setUp();
 
 	}
 
@@ -68,6 +69,7 @@ public class TestStep extends AppiumFactory {
 	 */
 	@AfterClass
 	public void afterClass() throws Exception {
+		tearDown();
 
 	}
 
@@ -77,7 +79,6 @@ public class TestStep extends AppiumFactory {
 	 */
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
-		setUp();
 
 	}
 
@@ -87,7 +88,6 @@ public class TestStep extends AppiumFactory {
 	 */
 	@AfterMethod
 	public void afterMethod() throws Exception {
-		tearDown();
 	}
 
 }

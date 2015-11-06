@@ -1,9 +1,9 @@
 package appium.tutorial.android.util;
 
 import io.appium.java_client.android.AndroidDriver;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,6 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -68,13 +69,9 @@ public abstract class AppiumHelpers {
 	 * @param id
 	 */
 	public void clickById(String id) {
-		try {
 			element(By.id(id)).click();
 			logger.debug("click id: {} successfully", id);
-		} catch (Exception e) {
-			logger.error("failed to click id: {}", id);
-			e.printStackTrace();
-		}
+	
 	}
 
 	/**
@@ -83,13 +80,10 @@ public abstract class AppiumHelpers {
 	 * @param xpath
 	 */
 	public void clickByXpath(String xpath) {
-		try {
+		
 			element(By.xpath(xpath)).click();
 			logger.debug("click xpath: {} successfully", xpath);
-		} catch (Exception e) {
-			logger.error("failed to click xpath: {}", xpath);
-			e.printStackTrace();
-		}
+		
 	}
 
 	/**
@@ -98,13 +92,10 @@ public abstract class AppiumHelpers {
 	 * @param xpath
 	 */
 	public void clickByClassName(String className) {
-		try {
+		
 			element(By.className(className)).click();
 			logger.debug("click className: {} successfully", className);
-		} catch (Exception e) {
-			logger.error("failed to click className: {}", className);
-			e.printStackTrace();
-		}
+		
 	}
 
 	/**
@@ -114,16 +105,12 @@ public abstract class AppiumHelpers {
 	 * @param text
 	 */
 	public void inputById(String id, String text) {
-		try {
+		
 			WebElement e = element(By.id(id));
 			e.clear();
 			e.sendKeys(text);
 			logger.debug("click id: {} ,and  input {} successfully", id, text);
-		} catch (Exception e) {
-			logger.error("failed to click id: {},and  input {} error ", id,
-					text);
-			e.printStackTrace();
-		}
+		
 	}
 
 	/**
@@ -133,17 +120,12 @@ public abstract class AppiumHelpers {
 	 * @param text
 	 */
 	public void inputByXpath(String xpath, String text) {
-		try {
 			WebElement e = element(By.xpath(xpath));
 			e.clear();
 			e.sendKeys(text);
 			logger.debug("click xpath: {} ,and  input {} successfully", xpath,
 					text);
-		} catch (Exception e) {
-			logger.error("failed to click xpath: {},and  input {} error ",
-					xpath, text);
-			e.printStackTrace();
-		}
+		
 	}
 
 	/**
@@ -153,17 +135,12 @@ public abstract class AppiumHelpers {
 	 * @param text
 	 */
 	public void inputByClassName(String className, String text) {
-		try {
 			WebElement e = element(By.className(className));
 			e.clear();
 			e.sendKeys(text);
 			logger.debug("click className: {} ,and  input {} successfully",
 					className, text);
-		} catch (Exception e) {
-			logger.error("failed to click className: {},and  input {} error ",
-					className, text);
-			e.printStackTrace();
-		}
+	
 	}
 
 	/**
@@ -234,11 +211,11 @@ public abstract class AppiumHelpers {
 	public static By byXpath(String value) {
 		logger.debug("定位元素：{}", value);
 		return By.xpath("//*[@content-desc=\"" + value
-				+ "\" or @resource-id=\"" + value + "\" or @text=\"" + value
+				+ "\" or @resource-id=\"" + value + "\" or @text=\"" + value+ "\" or @value=\""+ value+"\" or @id=\""+ value
 				+ "\"] | //*[contains(translate(@content-desc,\"" + value
 				+ "\",\"" + value + "\"), \"" + value
 				+ "\") or contains(translate(@text,\"" + value + "\",\""
-				+ value + "\"), \"" + value + "\") or @resource-id=\"" + value
+				+ value + "\"), \"" + value + "\") or @resource-id=\"" + value+ "\" or @value=\""+ value+"\" or @id=\""+ value
 				+ "\"]");
 	}
 
@@ -267,10 +244,18 @@ public abstract class AppiumHelpers {
 	 * @param value
 	 * @return
 	 */
-	public static WebElement findByVaule(String value) {
-		return element(byXpath(value));
+	public static WebElement findByXpath(String xpath) {
+		return element(By.xpath(xpath));
 	}
-
+	public static WebElement findById(String id) {
+		return element(By.id(id));
+	}
+	public static WebElement findByName(String name) {
+		return element(By.name(name));
+	}
+	public static WebElement findByLinkText(String linkText) {
+		return element(By.partialLinkText(linkText));
+	}
 	/**
 	 * Wait 30 seconds for locator to find an element *
 	 */
@@ -343,6 +328,7 @@ public abstract class AppiumHelpers {
 		} catch (NoSuchElementException e) {
 			logger.error("not found element by xpath:{}  in {} s", xpath,
 					seconds);
+			
 			return false;
 		}
 	}
@@ -363,5 +349,35 @@ public abstract class AppiumHelpers {
 			e.printStackTrace();
 		}
 
+	}
+	/**
+	 * @param e
+	 * @return 元素Text
+	 */
+	public String getText(WebElement e){
+		return e.getText();
+	}
+	/*/
+	 * 模拟键盘操作
+	 */
+	public void sendKeyEvent(int keyValue){
+		driver.sendKeyEvent(keyValue);
+	}
+	public static void clickScreen(int x, int y, int duration
+			) {
+			JavascriptExecutor js = driver;
+			HashMap<String, Integer> tapObject = new HashMap<String, Integer>();
+			tapObject.put("x", x);
+			tapObject.put("y", y);
+			tapObject.put("duration", duration);
+			js.executeScript("mobile: tap", tapObject);
+			}
+	public void swipe(int startX, int startY,int endX,int endY,int duration){
+		driver.swipe(startX, startY, endX, endY, duration);
+		
+	}
+	
+	public void pasue(int s) throws InterruptedException{
+		Thread.sleep(s*1000);
 	}
 }

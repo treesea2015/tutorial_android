@@ -66,7 +66,8 @@ import appium.tutorial.android.util.ftp.FtpUtil;
 		/* 62: */}
 
 	/* 63: */
-	/* 64: */public void generateReport(List<XmlSuite> xmlSuites,
+	/* 64: */@Override
+	public void generateReport(List<XmlSuite> xmlSuites,
 			List<ISuite> suites, String outputDirectoryName)
 	/* 65: */{
 		/* 66: 97 */removeEmptyDirectories(new File(outputDirectoryName));

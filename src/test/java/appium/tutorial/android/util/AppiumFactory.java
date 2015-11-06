@@ -35,6 +35,9 @@ public class AppiumFactory {
 		String appPath = Paths.get(userDir, localApp).toAbsolutePath()
 				.toString();
 		capabilities.setCapability("app", appPath);
+		//添加支持中文
+		capabilities.setCapability("unicodeKeyboard", "True");
+		capabilities.setCapability("resetKeyboard", "True");
 		driver = new AndroidDriver(serverAddress, capabilities);
 		driver.manage()
 				.timeouts()

@@ -11,7 +11,7 @@
       #set ($testInstanceName = " ($testResult.testName)")
     #end
     #if ($testResult.method.description && $testResult.method.description.length() > 0)
-      <span class="description" title="$testResult.method.description">$testResult.name$testInstanceName</span>
+      <span class="description" title="$testResult.method.description">$testResult.name$testInstanceName:$testResult.method.description</span>
     #else
       $testResult.name$testInstanceName
     #end
@@ -19,6 +19,12 @@
   <td class="duration">
     $utils.formatDuration($testResult.startMillis, $testResult.endMillis)s
   </td>
+  ##Display parameters
+  <td>
+  		#if ($utils.hasArguments($testResult))
+    	  <i></i><span class="arguments">$utils.getArguments($testResult)</span><br />
+ 	   #end
+    </td>
   <td class="result">
     ## Display the dependencies for skipped test methods.
     #if ($testResult.status == 3) ## 3 means skipped.
@@ -41,19 +47,7 @@
       <i>$messages.getString("methodArguments"): </i><span class="arguments">$utils.getArguments($testResult)</span><br />
     #end
 
-    ## Show logger output for the test.
-    #set ($output = $utils.getTestOutput($testResult))
-    #if ($output.size() > 0)
-    <div class="testOutput">
-      #foreach( $line in $output )
-        #if ($meta.shouldEscapeOutput())
-          $utils.escapeHTMLString($line)<br />
-        #else
-          $line
-        #end
-      #end
-    </div>
-    #end
+
 
 
     #if ($testResult.throwable && ( $testResult.status == 2 || $meta.shouldShowExpectedExceptions()))
@@ -72,11 +66,27 @@
           #end
         </div>
       #end
-            <a href="screenshot/${testClass.name}.jpg" target="_blank"><img src="screenshot/${testClass.name}.jpg" ></a>    
-      
+   
     </div>
     #end
     #set ($id = $id + 1)
   </td>
+  ##Display the screen shot if testcase gets failed
+  <td>      
+      ## Show logger output for the test.
+    #set ($output = $utils.getTestOutput($testResult))
+    #if ($output.size() > 0)
+    <div class="testOutput">
+      #foreach( $line in $output )
+        #if ($meta.shouldEscapeOutput())
+          <screenshot>$line
+        #else
+          $line
+        #end
+      #end
+    </div>
+    #end
+  </td>
+  
 </tr>
 #end

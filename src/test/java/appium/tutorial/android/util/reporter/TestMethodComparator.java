@@ -9,7 +9,8 @@ import org.testng.ITestNGMethod;
 /*  6:   */class TestMethodComparator
 /* 7: */implements Comparator<ITestNGMethod>
 /* 8: */{
-	/* 9: */public int compare(ITestNGMethod method1, ITestNGMethod method2)
+	/* 9: */@Override
+	public int compare(ITestNGMethod method1, ITestNGMethod method2)
 	/* 10: */{
 		/* 11:31 */int compare = method1.getRealClass().getName()
 				.compareTo(method2.getRealClass().getName());

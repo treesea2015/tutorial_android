@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+<suite name="Failed suite [Suite]" parallel="none">
   <listeners>
     <listener class-name="appium.tutorial.android.util.reporter.HTMLReporter"/>
     <listener class-name="appium.tutorial.android.util.reporter.JUnitXMLReporter"/>
   </listeners>
-  <test name="Test(failed)" parallel="none" preserve-order="false">
+  <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="appium.tutorial.android.step.WechatTest">
+      <class name="appium.tutorial.android.step.ccigmall.booking.BookTest">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterSuite"/>
-          <include name="testLogin" invocation-numbers="0"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
           <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="testBooking" invocation-numbers="0"/>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
         </methods>
-      </class>
+      </class> <!-- appium.tutorial.android.step.ccigmall.booking.BookTest -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
